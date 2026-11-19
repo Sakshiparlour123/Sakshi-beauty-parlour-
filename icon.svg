@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1521" />
+      <stop offset="50%" stop-color="#5A1628" />
+      <stop offset="100%" stop-color="#300812" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4A0" />
+      <stop offset="50%" stop-color="#E5B96F" />
+      <stop offset="100%" stop-color="#C2943B" />
+    </linearGradient>
+    <linearGradient id="rose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD6DD" />
+      <stop offset="100%" stop-color="#F29BAE" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)" />
+  
+  <!-- Outer Decorative Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#gold)" stroke-width="4" stroke-opacity="0.4" stroke-dasharray="8 6" />
+  <circle cx="256" cy="256" r="195" fill="none" stroke="url(#gold)" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Lotus / Crown Petal Mandala -->
+  <g transform="translate(256, 230)">
+    <!-- Central Lotus Petals -->
+    <path d="M 0,-85 C -25,-40 -45,15 0,65 C 45,15 25,-40 0,-85 Z" fill="url(#gold)" opacity="0.95" />
+    <path d="M -20,-70 C -60,-35 -70,20 -15,55 C 10,25 -5,-35 -20,-70 Z" fill="url(#rose)" opacity="0.85" />
+    <path d="M 20,-70 C 60,-35 70,20 15,55 C -10,25 5,-35 20,-70 Z" fill="url(#rose)" opacity="0.85" />
+    <path d="M -40,-45 C -90,-10 -95,45 -35,65 C -15,40 -20,-10 -40,-45 Z" fill="url(#gold)" opacity="0.75" />
+    <path d="M 40,-45 C 90,-10 95,45 35,65 C 15,40 20,-10 40,-45 Z" fill="url(#gold)" opacity="0.75" />
+
+    <!-- Sparkle Stars -->
+    <path d="M 0,-115 Q 0,-95 12,-95 Q 0,-95 0,-75 Q 0,-95 -12,-95 Q 0,-95 0,-115 Z" fill="#FFF" />
+    <circle cx="-85" cy="-60" r="4" fill="#FFE4A0" />
+    <circle cx="85" cy="-60" r="4" fill="#FFE4A0" />
+    <circle cx="0" cy="85" r="5" fill="#FFE4A0" />
+  </g>
+
+  <!-- Typography: SAKSHI -->
+  <text x="256" y="375" text-anchor="middle" font-family="'Cormorant Garamond', serif, Georgia" font-size="44" font-weight="bold" fill="url(#gold)" letter-spacing="4">SAKSHI</text>
+  <text x="256" y="415" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#FCEEE9" letter-spacing="6">BEAUTY PARLOUR</text>
+  <text x="256" y="445" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#E8B4B8" letter-spacing="2">AHIRAULA · AZAMGARH</text>
+</svg>
