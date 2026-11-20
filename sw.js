@@ -101,10 +101,10 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "apple-touch-icon.png",
     "revision": "e05a3d1471275ea629b808f8c50ddf67"
   }, {
-    "url": "assets/index-dneQz9IB.css",
+    "url": "index-dneQz9IB.css",
     "revision": null
   }, {
-    "url": "assets/index-B5JvQWeS.js",
+    "url": "index-B5JvQWeS.js",
     "revision": null
   }, {
     "url": "apple-touch-icon.png",
